@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/links: |
+    - name: source
+      url: https://github.com/cloudpilot-ai/karpenter-provider-gcp
+    - name: support
+      url: https://github.com/cloudpilot-ai/karpenter-provider-gcp/issues
+  artifacthub.io/signKey: |
+    fingerprint: 7D575660AC2C6650E263439577A23E34D5FE007A
+    url: https://cloudpilot-ai.github.io/karpenter-provider-gcp/keys/7D575660AC2C6650E263439577A23E34D5FE007A.asc
+apiVersion: v2
+appVersion: v0.8.0
+dependencies:
+- - condition: node-problem-detector.enabled
+  name: node-problem-detector
+  repository: oci://ghcr.io/deliveryhero/helm-charts
+  version: 2.4.1
+description: Karpenter GCP Cloud Provider — cost-efficient autoscaling for GKE clusters
+name: karpenter
+type: application
+version: 0.8.0
+
+...
+files:
+  karpenter-0.8.0.tgz: sha256:dd6fecd40c14754f680f44f95f2acac4a79d3f2a2e9bdffebdb53c9261058385
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJq9hfGCRB3oj401f4AekUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3JnSERe374lcagO00bhyowX33zgX/K1S7E7Plq8iyR+58QW
+IQR9V1ZgrCxmUOJjQ5V3oj401f4AegAAv4IP/i+Y8T5AQlCEzQVTP4VrHfHMsOD5
+GnE9jfZo2koIXPhIowu4VWy3/+QOP3k0Ee8hPUh01x6h7P0E2fslELCZzToPTT1N
+t2wTVEDwlgtDgdYFAfOqZiE8S9HfYpvJzgxPJXqRY6v4ROavLvoqwoGNrWQxanjS
+bu4eO9Rffgq9nmfFt4aJDnzEoawI3USMU00cTb3AdboxDKlAz0Z+1Tc68Nf/QofJ
+zd4aHlFHykCv+ELtgYa/ckl6ukirywlaw95FOweqP9WK3JhlP83OQ30fGBYW0L5P
+ST5DPZMsO6zT3qwAM5JUK6awse70blNRh4fNTDqgmKBMEWeC0zLe8+DF3gFpyCOF
+nZmYrfh/bdAW5MkKgDQHWlhUPgt5b63K1fp4nCNmojre7XZk72KosRs3bAdPEIxQ
+0pQWx81UphLSvf+gCEcCd829F8Mw9TshlLT8UIhotpfUqRqLfBc7T3e2jeGlSpkW
+ntHsrUWeMFiV6O7jB22ZHPmYU4rvNqVJs056sb3QMprXTZs+QSISLH5CE2wGRs9h
+rv2daBMA4FYdj+TR/EfIW1FjJPInDdYLDZ+eSqzb5umzAj8veGbu6n5/dOZhN7o2
+2fnJ9QJ3z8iInX7BhJCxLh/dYu4wm/ep0m6Jwuv55LaV0RwqdBU8iyC/zTC6HLvi
+0BUVryT03eZTx2gH
+-----END PGP SIGNATURE-----

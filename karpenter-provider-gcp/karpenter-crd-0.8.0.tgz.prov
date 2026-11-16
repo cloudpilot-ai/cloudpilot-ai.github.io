@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/links: |
+    - name: source
+      url: https://github.com/cloudpilot-ai/karpenter-provider-gcp
+    - name: support
+      url: https://github.com/cloudpilot-ai/karpenter-provider-gcp/issues
+  artifacthub.io/signKey: |
+    fingerprint: 7D575660AC2C6650E263439577A23E34D5FE007A
+    url: https://cloudpilot-ai.github.io/karpenter-provider-gcp/keys/7D575660AC2C6650E263439577A23E34D5FE007A.asc
+apiVersion: v2
+appVersion: v0.8.0
+description: Karpenter GCP CRD chart - installs and upgrades Karpenter CustomResourceDefinitions
+  independently
+name: karpenter-crd
+type: application
+version: 0.8.0
+
+...
+files:
+  karpenter-crd-0.8.0.tgz: sha256:1282eee1377c551082bcc3b7ee0a23100c29d45c54f9643393eba448395bba24
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJq9hfGCRB3oj401f4AekUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3Jny39/rsqbiKUE5KpMU6eq2NemR064lR0LecZS55MDdecW
+IQR9V1ZgrCxmUOJjQ5V3oj401f4AegAA8WwQAKcSkb0XDZ9GTmLS/VnJ3cpi5Hm4
+V1f9wA9F6fxg69v7VNU1mG0ayzTOM6ohXiRTu87UHJB+DL96SYIJA14sTj+/1x3b
+v6gUhZlS/UJ/6TtjXPiNftSMWcxNO3zAFwGshq/vSsiKglEoU0VMn/Nr8XkVan+v
+PNa4oO3Th06MJsR3LaW7o5SnuzpYil3UJlFcz9udXGCaVmedRxZD1Ri+17H3idSL
+5smkN6XbwSOIID+0NCpz1sCetdjDAhA/aVwob1JdiYYE/qVXdvxqAu9BLkL0ug9h
+TWxXqN5E8IT2nOlfa44fuSx5cirQj4AtUcU6JTUzcVCOg83xuhNbApwnjHuE6wvS
+0QdLWwyGc/BffeZvoSRfQDQMRAObgHIDSD1NRDDTjio/7X9uP8DJVXH21wihbbDv
+LzkVm8xYvEYaTFDqI3Pp313sGKn8rkWA/a/LOO8uVTXd55DZ4faxK/BGI8O7WQsI
+qxO0ogjnP64VYmux6FyZZMDb8/0q5vPCdHzhT9twrykO/QO1SCfgZOGv9lBr2cP7
+V+qGUPqruAxs4htvTqFyFKFbMNYCJaNmPKtDiOqcLGVOrGgxIo2JNPMrU/YRDtBT
+MGxiZz2OMXYCnIgUEwFa3sjvCPW5vMoXU4/8byXXHiSaG/2YaPQa7Xe1xh0V+MSC
+S/68nkHg5saBozDs
+-----END PGP SIGNATURE-----
